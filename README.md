@@ -7,7 +7,7 @@ Gemini APIを使用したシンプルなCLIツール。
 **GitHubから直接実行（推奨）:**
 
 ```bash
-uvx git+https://github.com/okunarutakashi/gemini-ask "質問内容"
+uvx git+https://github.com/oknrtks/gemini-ask "質問内容"
 ```
 
 **ローカルインストール:**
