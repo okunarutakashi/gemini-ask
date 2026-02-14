@@ -1,0 +1,21 @@
+[project]
+name = "gemini-ask"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "someone", email = "someone@someone.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "google>=3.0.0",
+    "google-genai>=1.63.0",
+    "python-dotenv>=1.2.1",
+]
+
+[project.scripts]
+gemini_ask = "gemini_ask.gemini_ask:main"
+
+[build-system]
+requires = ["uv_build>=0.10.2,<0.11.0"]
+build-backend = "uv_build"
